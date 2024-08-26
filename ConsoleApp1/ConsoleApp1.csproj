@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="4.1.0" />
+    <PackageReference Include="NUnitTestAdapter" Version="2.3.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.23.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="127.0.6533.11900" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Demo01_UploadFile">
+      <HintPath>..\..\..\Test Projects\Demo01_UploadFile\bin\Debug\net8.0\Demo01_UploadFile.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
